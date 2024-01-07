@@ -109,19 +109,80 @@ create table temp8(age int check (age >= 18));
 
 -- select command : It is used to select any data from the database;
 create table temp9(Id int ,name varchar(50),country varchar(50),salary int, primary key(Id));
-insert into temp9 values(12213356,"Madhav","India",56100),(12213357,"Ram jee","India",56200),(12213358,"Sandeep","India",56300),(12213359,"Happy","India",56400);
+insert into temp9 values(12213356,"Madhav","India",56100),(12213357,"Ram jee","India",66200),(12213358,"Sandeep","India",6300),(12213359,"Happy","India",20400);
+insert into temp9 values(12213366,"Madhavi","Japan",15100),(12213367,"Ram kumar","South korea",50200),(12213368,"Sandeepa","Sweden",46300),(12213369,"sad","Denmark",30400);
+insert into temp9 values(12213376,"Madhu","Japan",9100),(12213377,"Ramu","South korea",19200),(12213378,"Sanika","Sweden",25300),(12213379,"anguri","Denmark",52400);
 select * from temp9;
 select name from temp9;
 select Id from temp9;
 select country from temp9;
 select salary from temp9;
 select name,salary from temp9;
+select distinct country from temp9;
+select country="India" from temp9;
+select country="Japan" from temp9;
+drop table temp9;
+
+-- where clause : To define some condition;
+ select country, salary from temp9 where salary >=21000;
+ select country, salary from temp9 where salary <21000;
+ select * from temp9 where country="India" and salary>36000;
+ 
+ /*
+ using operator in the where clauses;
+ arithmetic operators : +,-,*,/,%
+ logical operators : and, or, not,in, between, all, like, any
+ bitwise operators : &, |
+ comparison operators : =, !=, >, >=, <, <=
+ 
+ 
+ */
+ 
+select * from temp9 where salary + 10000 > 30000;
+select * from temp9 where salary = 56100;
+
+select * from temp9 where salary between 29000 and 49000;  -- here 29000 and 49000 are inclusive;
+
+select * from temp9 where country in("Japan","Sweden");
+select * from temp9 where country not in ("Japan","Sweden");
+
+-- limit clause; 
+select * from temp9 limit 3; -- sets an upper limit on number of tupples(rows) to be returned;
+
+select * from temp9 where country in("India") limit 3;
+
+-- order by clause;
+-- It will sort data in ascending order or descending order;
+select * from temp9 order by country asc; 
+select * from temp9 order by salary desc;
+
+select * from temp9 order by salary desc limit 3;
+
+/* 
+aggregate function : 
+It perform calculation on set of values, and return single value;
+count(), max(),min(),avg(),sum()
 
 
 
+ */
 
+select max(salary) from temp9;
+select min(salary) from temp9;
+select avg(salary) from temp9;
+select count(name) from temp9;
+select sum(salary) from temp9;
 
+/*
+group by clause : 
+it groups rows that have same values into summary rows;
+it collects data from multiple records and groups the result by one or more column;
 
+generally, we use group by with some aggregation function;
 
+*/
+select country,count(name) from temp9 group by country;
+select country,max(salary) from temp9 group by country;
 
-
+select country,avg(salary) from temp9 group by country order by country desc;
+select country,avg(salary) from temp9 group by country order by avg(salary) desc;
