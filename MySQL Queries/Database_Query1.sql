@@ -186,3 +186,42 @@ select country,max(salary) from temp9 group by country;
 
 select country,avg(salary) from temp9 group by country order by country desc;
 select country,avg(salary) from temp9 group by country order by avg(salary) desc;
+
+select country,count(salary) from temp9 group by country;
+
+/*
+having clause : 
+it is similar to where clause applies some condition on rows;
+it is used when we want to apply any condition after grouping;
+
+
+*/
+
+create table temp10(id int primary key, name varchar(50),percentage int, grade char(1),city varchar(50));
+insert into temp10 values (1,"john adam",91,"A","Patna");
+insert into temp10 values (2,"adam john",81,"B","Patan");
+insert into temp10 values (3,"johnny adam",71,"c","delhi");
+insert into temp10 values (4,"adam johnny",86,"B","Patan");
+insert into temp10 values (5,"johnathan adam",97,"A","Patna");
+insert into temp10 values (6,"adam johnathan",85,"B","punjab");
+insert into temp10 values (7,"josper adam",77,"C","punjab");
+insert into temp10 values (8,"adam josper",61,"D","noida");
+insert into temp10 values (9,"kamal",89,"B","patna");
+insert into temp10 values (10,"kamala harris",89,"B","punjab");
+insert into temp10 values (11,"harris",99,"A","haryana");
+
+select * from temp10;
+drop table temp10;
+select grade ,count(id) from temp10 group by grade order by grade asc;
+select city, count(id) from temp10 group by city having max(percentage) > 85;
+
+/*
+general order of commands : 
+select
+from
+where
+group by
+having
+order by
+*/
+select city from temp10 where grade in("A" ,"B") group by city having max(percentage) > 83 order by city desc; 
