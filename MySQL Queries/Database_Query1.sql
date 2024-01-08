@@ -225,3 +225,83 @@ having
 order by
 */
 select city from temp10 where grade in("A" ,"B") group by city having max(percentage) > 83 order by city desc; 
+
+
+/*
+Table related queries : 
+update : to update existing rows;
+
+by default : sql are are int safe mode. if we try to update any existing rows it will throw an error (error 1175). so, we have to off safe mode by writing these following command : 
+set sql_safe_updates = 0; 
+
+*/
+set sql_safe_updates = 0;
+update temp10 set grade = "O" where grade = "A";
+
+update temp10 set grade = "P" where percentage > 95;
+
+/*
+delete command : 
+to delete existing rows : 
+
+
+*/
+
+delete from temp10 where percentage < 65;
+
+/*
+revisiting foreign key : 
+
+*/
+
+create table course(course_code int primary key, course_name varchar(50));
+drop table course;
+
+create table faculty(id int primary key, name varchar(50), course_code int, foreign key(course_code) references course(course_code));
+drop table faculty;
+/*
+cascading for foreign key : 
+on delete cascade : when we create a foreign key using this option, it deletes the referencing rows int he child table
+when the referenced row is deleted in the parent table which has a primary key;
+
+on update cascade : when we create a foreign key using update cascade the referencing rows are updated in the child 
+table when the referenced row is updated in the parent table which has a primary key;
+
+*/
+
+create table course(course_code int primary key, course_name varchar(50));
+create table faculty(id int primary key,name varchar(50),course_code int, foreign key (course_code) references course(course_code) on delete cascade on update cascade);
+
+insert into course values(101,"hindi"),(102,"english"),(103,"sanskrit");
+select * from course;
+
+update course set course_code=104 where course_code=103;
+
+insert into faculty values(1001,"rahul",101),(1002,"rohit",102),(1003,"ronit",103),(1004,"raghu",101),(1005,"ravi",103);
+select * from faculty;
+
+/*
+table related queries : 
+alter : to change the schema;
+add column
+drop column
+rename table
+change --- rename
+modify --- modify datatype and constraint
+*/
+
+alter table faculty add column age int;
+alter table faculty drop column age;
+alter table faculty rename to faculty_data;
+
+drop table faculty_data;
+
+alter table faculty change id faculty_id int;
+alter table course change course_code course_id int;
+alter table course modify course_id varchar(50);
+
+-- deletion
+delete from course where course_id="RK1001";
+insert into course values("RK1001","programming");
+select * from course;
+
