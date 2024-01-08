@@ -305,3 +305,96 @@ delete from course where course_id="RK1001";
 insert into course values("RK1001","programming");
 select * from course;
 
+/*
+truncate table : 
+it will delete all table's data;
+
+
+*/
+truncate table course;
+
+/*
+joins in sql : 
+join is used to combine rows from two or more tables, based on a related column between them;
+types of join :
+1. inner join : returns records that have matching values in both tables;
+
+2. outer join : 
+ a. left join --> returns all records from the left table, and the matched records from the right table;
+ b. right join --> returns all records from the right table, and the matched records from the left table;
+ c. full join  --> returns all records when there is a match in either left or right table;
+ --> left join union right join;
+ 
+left exclusive join
+right exclusive join
+self join : it is a regular join but the table is joined with itself;
+*/
+
+create table stud(id int , name varchar(50));
+create table cou(id int , course varchar(50));
+insert into stud values(101,"adam"),(102,"bob"),(103,"casey"); 
+insert into cou values(102,"english"),(105,"math"),(103,"science"),(107,"computer science");
+-- inner join
+select * from stud inner join cou on stud.id = cou.id;
+select * from stud as s inner join cou as c on s.id = c.id;
+-- left join
+select * from stud left join cou on stud.id = cou.id;
+-- right join
+select * from stud right join cou on stud.id = cou.id;
+-- full join : 
+select * from stud left join cou on stud.id = cou.id union select * from stud right join cou on stud.id = cou.id;
+-- left exclusive join :  
+select * from stud left join cou on stud.id = cou.id where cou.id is null;
+-- right exclusive join : 
+select * from stud right join cou on stud.id = cou.id where stud.id is null;
+
+
+create table emp(id int , name varchar(50),m_id int);
+insert into emp values(101,"adam",103),(102,"bob",104),(103,"casey",null),(104,"donald",103);
+select * from emp;
+-- self join
+select a.name as manager_name, b.name from emp as a join emp as b on a.id = b.m_id;
+
+/*
+union : 
+it is used to combine the result set of two or more select statements;
+it gives unique records;
+
+to use it :
+every select should have same no of column;
+columns must have similar data types;
+columns in every select should be in same order;
+
+
+*/
+select name from emp union select name from emp;  
+select name from emp union all select name from emp;
+
+/*
+sql sub queries : 
+a subquery or inner query or a nested query is a query within another sql query;
+it involves two select statements;
+
+
+*/
+create table marks(id int , name varchar(50),mar int);
+insert into marks values (101,"anil",78),(102,"bhumika",93),(103,"chetan",85),(104,"dhruv",96),(105,"emanual",92),(106,"farah",82);
+select * from marks;
+drop table marks;
+select avg(mar) from marks;
+select name, mar from marks where mar > 87.667;
+select name, mar from marks where mar > (select avg(mar) from marks);  -- it is dynamic in nature;
+
+select id,name from marks where id % 2 = 0;
+select id, name from marks where id in (select id from marks where id % 2 = 0);
+
+alter table marks add column city varchar(50);
+update marks set city = "pune" where id = 101;
+update marks set city = "mumbai" where id in (102,103);
+update marks set city = "delhi" where id in (104,105,106);
+
+select * from marks where city = "delhi";
+select max(mar) from(select * from marks where city = "delhi") as temp;
+select max(mar) from marks where city = "mumbai";
+
+
