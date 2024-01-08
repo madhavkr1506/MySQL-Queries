@@ -397,4 +397,18 @@ select * from marks where city = "delhi";
 select max(mar) from(select * from marks where city = "delhi") as temp;
 select max(mar) from marks where city = "mumbai";
 
+/*
+mysql views : 
+a view is a virtual table based on the result-set of an sql statement;
+a view always shows up to date data; the database engine recreates the view, every time  a user queries it;
+*/
+
+
+create view view1 as select name , id from marks ;
+select * from view1;
+create view view2 as select mar , id from marks ;
+select * from view2 where mar > 95;
+
+drop view view1;
+
 
