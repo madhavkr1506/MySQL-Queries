@@ -19,6 +19,9 @@ union all
 select * from k22zmStudent;
 
 
+
+
+
 select * from k22gmStudent where name='Madhav'
 union
 select * from k22zmStudent where name='Madhavi';
