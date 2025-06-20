@@ -1,0 +1,460 @@
+इस डेटा सेट में कुल कितने ब्रांड्स हैं?
+🔹 How many unique brands are included in the dataset?
+
+डेटा किन-किन वर्षों के लिए उपलब्ध है?
+🔹 What are the available years covered in the dataset?
+
+हर ब्रांड का कुल प्रोडक्शन वॉल्यूम कितना है?
+🔹 What is the total production volume for each brand?
+
+2020 में सबसे ज़्यादा प्रोडक्शन किस ब्रांड ने किया?
+🔹 Which brand had the highest production in 2020?
+
+किस ब्रांड का एवरेज कार्बन एमिशन सबसे ज़्यादा है?
+🔹 Which brand has the highest average carbon emissions?
+
+2019 में सबसे कम वॉटर यूसेज किस ब्रांड का था?
+🔹 Which brand had the lowest water usage in 2019?
+
+किस साल में चाइल्ड लेबर की रिपोर्ट्स सबसे ज़्यादा थीं?
+🔹 Which year had the most reports of child labor?
+
+2022 में सोशल मीडिया पर सबसे पॉजिटिव सेंटिमेंट किस ब्रांड का था?
+🔹 Which brand had the most positive social media sentiment in 2022?
+
+कौन-से देश लेबर कंडीशन्स के लिहाज़ से सबसे खराब हैं?
+🔹 Which countries have the worst labor conditions on average?
+
+किन ब्रांड्स ने समय के साथ अपने कार्बन एमिशन को घटाया है?
+🔹 Which brands have reduced their carbon emissions over time?
+
+क्या सोशल मीडिया सेंटिमेंट और एनवायरनमेंटल स्कोर के बीच कोई संबंध है?
+🔹 Is there a correlation between social media sentiment and environmental scores?
+
+किन देशों में वॉटर यूसेज और प्रोडक्शन वॉल्यूम में संबंध देखा गया है?
+🔹 Which countries show a correlation between water usage and production volume?
+
+सबसे कम औसत मजदूरी (average wages) किस देश में है?
+🔹 Which country has the lowest average wages?
+
+किन ब्रांड्स का लेबर स्कोर लगातार गिर रहा है?
+🔹 Which brands have consistently declining labor scores?
+
+2021 में किस देश में सबसे अधिक ब्रांड्स ने ऑपरेट किया?
+🔹 In 2021, which country had the most operating brands?
+
+किस ब्रांड का सोशल मीडिया स्कोर सबसे अस्थिर (volatile) है?
+🔹 Which brand has the most volatile social media sentiment over time?
+
+क्या किसी एक देश के लिए सभी मेट्रिक्स खराब हैं?
+🔹 Is there a country that performs poorly across all metrics?
+
+वॉटर यूसेज का सबसे बड़ा contributor कौन-सा ब्रांड है?
+🔹 Which brand contributes the most to total water usage?
+
+क्या चाइल्ड लेबर रिपोर्ट्स और सोशल मीडिया सेंटिमेंट में कोई संबंध है?
+🔹 Is there a link between child labor reports and social media sentiment?
+
+2015 के मुकाबले 2024 में प्रोडक्शन में कितनी वृद्धि हुई है?
+🔹 How much has the total production increased from 2015 to 2024?
+
+किन ब्रांड्स ने अपने सोशल मीडिया स्कोर को सुधारने के लिए पर्यावरणीय इन्वेस्टमेंट किया है?
+🔹 Which brands improved environmental investments in response to social media criticism?
+
+सबसे अधिक वेतन (highest wages) किस ब्रांड के वर्कर्स को मिल रहा है?
+🔹 Which brand offers the highest wages to its workers?
+
+डेटा में किस प्रकार के missing values हैं?
+🔹 What types of missing values are present in the dataset?
+
+किन ब्रांड्स का environmental impact और labor score दोनों बेहतर हैं?
+🔹 Which brands have both good environmental and labor scores?
+
+किस ब्रांड की consumer trend में सबसे तेज़ बदलाव आया है?
+🔹 Which brand has seen the most rapid change in consumer behavior trends?
+
+2020 से 2024 तक किन ब्रांड्स का कार्बन एमिशन सबसे तेज़ी से घटा है?
+🔹 Which brands have reduced carbon emissions the fastest between 2020 and 2024?
+
+हर साल का औसत वॉटर यूसेज कितना है?
+🔹 What is the average annual water usage across all brands?
+
+किन ब्रांड्स ने वर्कर वेज बढ़ाया लेकिन सोशल मीडिया सेंटिमेंट में गिरावट देखी गई?
+🔹 Which brands increased worker wages but saw a drop in social media sentiment?
+
+क्या चाइल्ड लेबर की रिपोर्ट और एनवायरनमेंटल स्कोर में कोई रिश्ता है?
+🔹 Is there a relationship between child labor reports and environmental scores?
+
+किन ब्रांड्स का प्रोडक्शन लगातार बढ़ता रहा लेकिन लेबर स्कोर नहीं सुधरा?
+🔹 Which brands consistently increased production without improving labor scores?
+
+2023 में किन देशों में सोशल मीडिया पर सबसे ज़्यादा नेगेटिविटी आई?
+🔹 Which countries faced the most negative social media sentiment in 2023?
+
+किस ब्रांड के लिए सस्टेनेबिलिटी रिपोर्ट और सोशल मीडिया डेटा सबसे ज्यादा मेल खाते हैं?
+🔹 Which brand shows the highest alignment between sustainability reports and social media sentiment?
+
+क्या कुछ देशों में वॉटर यूसेज disproportionate है उनके प्रोडक्शन के मुकाबले?
+🔹 Are there countries where water usage is disproportionately high relative to production volume?
+
+किस ब्रांड ने 2015 से 2024 तक मजदूरी सबसे ज़्यादा बढ़ाई है?
+🔹 Which brand has increased worker wages the most from 2015 to 2024?
+
+2020 और 2024 के बीच सबसे ज़्यादा environment improvement किस ब्रांड में हुआ?
+🔹 Which brand showed the most environmental improvement between 2020 and 2024?
+
+किन ब्रांड्स का चाइल्ड लेबर रिपोर्टिंग ट्रेंड डाउनवर्ड रहा है?
+🔹 Which brands show a decreasing trend in child labor reports?
+
+किन देशों में वॉटर यूसेज और कार्बन एमिशन में उच्च सह-संबंध (correlation) है?
+🔹 Which countries exhibit high correlation between water usage and carbon emissions?
+
+लेबर वेजेस और सोशल मीडिया स्कोर के बीच कैसा रिश्ता है?
+🔹 What is the relationship between labor wages and social media sentiment?
+
+किन ब्रांड्स का परफॉर्मेंस सबसे inconsistent रहा है?
+🔹 Which brands have the most inconsistent performance across years?
+
+क्या ऐसे कोई ब्रांड्स हैं जिन्होंने सभी स्कोर्स में बेहतरी दिखाई है?
+🔹 Are there any brands that have shown consistent improvement across all metrics?
+
+क्या चाइल्ड लेबर की घटनाओं के बाद सेंटिमेंट में गिरावट आती है?
+🔹 Do child labor incidents correlate with subsequent drops in sentiment?
+
+किन ब्रांड्स का सस्टेनेबिलिटी स्कोर और कंज़्यूमर ट्रेंड्स positively aligned हैं?
+🔹 Which brands show positive alignment between sustainability scores and consumer trends?
+
+किन ब्रांड्स में ह्यूमन राइट्स वॉयलेशन रिपोर्ट्स highest हैं?
+🔹 Which brands have the highest reports of human rights violations?
+
+कौन से 3 देश सबसे ज़्यादा पर्यावरणीय दबाव में हैं?
+🔹 Which 3 countries are under the highest environmental stress?
+
+सबसे तेज़ी से बदलते कंज़्यूमर ट्रेंड्स किन ब्रांड्स के साथ जुड़े हैं?
+🔹 Which brands are associated with the fastest-changing consumer trends?
+
+क्या कोई सीज़नल पैटर्न है कार्बन एमिशन या सोशल मीडिया में?
+🔹 Are there any seasonal patterns in carbon emissions or social media sentiment?
+
+किन देशों में मजदूरी और चाइल्ड लेबर रिपोर्ट्स में उच्च सह-संबंध है?
+🔹 Which countries have high correlation between low wages and child labor reports?
+
+किस साल में इंडस्ट्री ने सबसे ज़्यादा ethical degradation दिखाया?
+🔹 In which year did the industry show the greatest ethical degradation?
+
+किन ब्रांड्स ने सोशल मीडिया बैकलैश के बाद अपनी पॉलिसी बदली है?
+🔹 Which brands altered policies following social media backlash?
+
+किन ब्रांड्स का कंज़्यूमर ट्रेंड्स और लेबर स्कोर में कोई संबंध नहीं दिखता?
+🔹 Which brands show no relationship between consumer trends and labor scores?
+
+किन ब्रांड्स का कार्बन एमिशन ट्रेंड फोरकास्टिंग मॉडल सबसे स्थिर रिजल्ट देता है?
+🔹 Which brand’s carbon emission trend gives the most stable results when forecasted?
+
+2025 तक किन ब्रांड्स का लेबर स्कोर गिरने की संभावना है?
+🔹 Which brands are likely to experience a drop in labor score by 2025?
+
+क्या सोशल मीडिया सेंटिमेंट से फ्यूचर consumer behavior का अनुमान लगाया जा सकता है?
+🔹 Can social media sentiment predict future consumer behavior?
+
+कौन-से देशों में पॉलिसी बदलाव के बाद पर्यावरणीय सुधार देखने को मिला?
+🔹 Which countries showed environmental improvements after policy changes?
+
+किस ब्रांड का projected water usage 2025 तक सबसे ज़्यादा होगा?
+🔹 Which brand is projected to have the highest water usage by 2025?
+
+किन ब्रांड्स ने चाइल्ड लेबर रिपोर्टिंग में long-term improvement दिखाया है?
+🔹 Which brands have shown long-term improvement in child labor reporting?
+
+किन देशों में ethical practices के आधार पर निवेश का सुझाव दिया जा सकता है?
+🔹 Which countries can be recommended for investment based on ethical practices?
+
+अगर लेबर वेजेस बढ़ाई जाती हैं, तो सेंटिमेंट में कितना सुधार देखने को मिलता है?
+🔹 How much does sentiment improve when labor wages are increased?
+
+क्या वॉटर यूसेज में गिरावट सीधे सोशल मीडिया में सराहना लाती है?
+🔹 Does a decrease in water usage directly lead to positive sentiment on social media?
+
+2015–2024 तक कौन-सा ब्रांड ethical leadership में सबसे ऊपर रहा?
+🔹 Which brand has been the top performer in ethical leadership from 2015 to 2024?
+
+क्या ऐसा कोई देश है जहाँ सस्टेनेबिलिटी स्कोर्स बढ़े हैं लेकिन सैलरी घटी है?
+🔹 Is there a country where sustainability scores improved but wages decreased?
+
+किन ब्रांड्स का projected ethical score 2026 तक नीचे जाने का खतरा है?
+🔹 Which brands are at risk of ethical score decline by 2026?
+
+कौन-सा कंट्री–ब्रांड कॉम्बिनेशन सबसे खराब प्रदर्शन कर रहा है?
+🔹 Which country–brand combination is the worst performer overall?
+
+क्या consumer trend data और ethical data में predictive relationship है?
+🔹 Is there a predictive relationship between consumer trends and ethical data?
+
+किन ब्रांड्स ने “greenwashing” किया — यानी रिपोर्ट्स अच्छी हैं लेकिन डेटा नहीं?
+🔹 Which brands show signs of “greenwashing” – good reports but poor data performance?
+
+क्या चाइल्ड लेबर ट्रेंड्स का फोरकास्ट किया जा सकता है?
+🔹 Can child labor trends be forecasted effectively?
+
+किस साल में environmental degradation का सबसे बड़ा स्पाइक आया?
+🔹 In which year was the biggest spike in environmental degradation?
+
+किन देशों में पर्यावरणीय गिरावट और सोशल मीडिया backlash साथ में देखने को मिला?
+🔹 In which countries did environmental decline coincide with social media backlash?
+
+किन ब्रांड्स का सस्टेनेबिलिटी स्कोर और projected consumer loyalty positively linked हैं?
+🔹 Which brands show a positive link between sustainability scores and projected consumer loyalty?
+
+क्या ethical performance से ब्रांड की मार्केट वैल्यू का अनुमान लगाया जा सकता है?
+🔹 Can ethical performance predict a brand’s market value?
+
+कौन-से 5 ब्रांड्स को policy-makers को बेंचमार्क मानना चाहिए?
+🔹 Which 5 brands should be considered benchmarks by policy-makers?
+
+किन देशों के लिए NGO इंटरवेंशन most urgent है, based on multi-metric failure?
+🔹 Which countries most urgently need NGO intervention based on multi-metric failure?
+
+2025 के लिए कौन-से ब्रांड्स सबसे ज्यादा ethical risk में हैं?
+🔹 Which brands are at highest ethical risk in 2025 projections?
+
+कौन-से देशों में लगातार पर्यावरणीय सुधार हुआ है, जिससे policy recommendations निकाली जा सकती हैं?
+🔹 Which countries have shown consistent environmental improvement useful for policy recommendations?
+
+किन ब्रांड्स ने ट्रेंड्स के अनुसार consumer trust regain किया है?
+🔹 Which brands have regained consumer trust according to trend data?
+
+किन तीन फीचर्स के बीच सबसे मज़बूत सह-संबंध (strongest multivariate correlation) है?
+🔹 Which three features have the strongest multivariate correlation?
+
+क्या वॉटर यूसेज, प्रोडक्शन और लेबर स्कोर के बीच कोई ट्राइअंगुलर रिलेशन है?
+🔹 Is there a triangular relationship between water usage, production volume, and labor score?
+
+किन ब्रांड्स का सोशल मीडिया स्कोर और चाइल्ड लेबर रिपोर्ट्स विपरीत दिशा में चलते हैं?
+🔹 Which brands show an inverse relationship between sentiment and child labor reports?
+
+किन ब्रांड्स में high wages, low environmental impact और positive sentiment एकसाथ हैं?
+🔹 Which brands have high wages, low environmental impact, and positive sentiment together?
+
+कौन-से देशों में negative trends सभी तीन impact क्षेत्रों (social, economic, environmental) में देखे गए हैं?
+🔹 Which countries show negative trends across all three impact areas: social, economic, and environmental?
+
+किन ब्रांड्स के केस में social pressure (sentiment) के कारण labor score सुधरा है?
+🔹 In which brands has social pressure (via sentiment) led to improvement in labor scores?
+
+किन टॉप 5 ब्रांड्स ने तीनों डोमेन्स में बराबरी से परफॉर्म किया है?
+🔹 Which top 5 brands have consistently performed well across all three domains?
+
+किन देशों में consumer behavior और environmental degradation में high correlation है?
+🔹 Which countries show a high correlation between consumer behavior and environmental degradation?
+
+क्या high production volume हमेशा high carbon emission को दर्शाता है?
+🔹 Does high production volume always lead to high carbon emissions?
+
+क्या labor wages और environmental performance में कोई trade-off दिखता है?
+🔹 Is there a trade-off between labor wages and environmental performance?
+
+डेटा को किन आधारों पर क्लस्टर किया जा सकता है – देश, ब्रांड या इम्पैक्ट स्कोर?
+🔹 On what basis can the data best be clustered — country, brand, or impact scores?
+
+क्या unsupervised clustering से ethical और unethical ब्रांड्स को अलग किया जा सकता है?
+🔹 Can unsupervised clustering separate ethical and unethical brands?
+
+क्या k-means clustering से देश की सामाजिक स्थितियों को समझा जा सकता है?
+🔹 Can k-means clustering help understand social conditions by country?
+
+किन ब्रांड्स को एक ही सेगमेंट में रखा जा सकता है based on consumer response और sustainability?
+🔹 Which brands fall into the same segment based on consumer response and sustainability performance?
+
+क्या clustering से policy intervention zones identify किए जा सकते हैं?
+🔹 Can clustering identify zones for targeted policy intervention?
+
+
+कैसे एक समग्र "Ethical Performance Index" तैयार किया जा सकता है?
+🔹 How can an overall Ethical Performance Index be constructed?
+
+अगर हर फ़ीचर को 0 से 10 स्केल पर लाएँ, तो कौन-से टॉप 10 ब्रांड ethical ranking में आते हैं?
+🔹 After normalizing features to a 0–10 scale, which are the top 10 brands by ethical ranking?
+
+क्या composite index में consumer sentiment को ज्यादा वेट देना चाहिए या labor score को?
+🔹 Should consumer sentiment or labor score be given more weight in a composite index?
+
+सबसे खराब प्रदर्शन वाले 5 ब्रांड कौन-से हैं, composite ethical scoring के अनुसार?
+🔹 Which 5 brands perform the worst based on composite ethical scoring?
+
+कौन-सा देश ethical policy implementation में सबसे आगे है?
+🔹 Which country leads in ethical policy implementation?
+किस ब्रांड की कहानी एक उदाहरण बन सकती है “बदलाव की ओर यात्रा” के रूप में?
+🔹 Which brand’s journey can serve as a case study for "Transformation Towards Ethics"?
+
+किन देशों को श्रमिकों के वेतन सुधार हेतु प्राथमिकता देनी चाहिए?
+🔹 Which countries should be prioritized for improving labor wages?
+
+क्या ब्रांड X की पॉलिसी 2018 में बदली थी, और उसका क्या असर पड़ा?
+🔹 Did Brand X change its policy in 2018, and what was the impact?
+
+किन देशों में “high risk” और “low attention” की स्थिति है, जहाँ NGO की ज़रूरत सबसे अधिक है?
+🔹 Which countries are “high risk” and “low attention” zones needing urgent NGO support?
+
+कौन-सी 3 डेटा स्टोरीज़ नीति निर्माताओं को सबसे अधिक प्रेरित कर सकती हैं?
+🔹 Which 3 data stories can most effectively influence policy-makers toward action?
+
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+
+
+
+इस डेटा सेट में कुल कितने यूनिक ब्रांड्स हैं?
+How many unique brands are in the dataset?
+
+डेटा किन-किन वर्षों के लिए उपलब्ध है?
+Which years are covered in the dataset?
+
+हर ब्रांड का कुल उत्पादन वॉल्यूम कितना है?
+What is the total production volume for each brand?
+
+2020 में सबसे ज़्यादा उत्पादन किस ब्रांड का था?
+Which brand had the highest production in 2020?
+
+2019 में सबसे कम पानी का इस्तेमाल किस ब्रांड ने किया?
+Which brand had the lowest water usage in 2019?
+
+2022 में किस ब्रांड का सोशल मीडिया सेंटिमेंट सबसे पॉजिटिव था?
+Which brand had the most positive social media sentiment in 2022?
+
+सबसे कम औसत मजदूरी किस देश में है?
+Which country has the lowest average worker wage?
+
+किन ब्रांड्स ने समय के साथ अपना CO₂ उत्सर्जन घटाया है?
+Which brands have reduced their carbon emissions over time?
+
+किस साल में सबसे ज़्यादा चाइल्ड लेबर घटनाएँ रिपोर्ट हुईं?
+Which year reported the highest child labor incidents?
+
+कौन-से ब्रांड्स की सोशल मीडिया पर सबसे ज़्यादा आलोचना हुई?
+Which brands faced the most negative sentiment?
+
+किन देशों में एक से ज़्यादा ब्रांड सक्रिय हैं?
+Which countries have multiple brands operating in them?
+
+हर साल का औसत उत्पादन कितना है?
+What is the average production per year?
+
+कौन-से ब्रांड हर साल प्रोडक्शन बढ़ाते रहे हैं?
+Which brands consistently increased production year by year?
+
+2021 में किन ब्रांड्स का environmental score सबसे कम था?
+Which brands had the lowest environmental score in 2021?
+
+हर ब्रांड के लिए कुल कार्बन एमिशन निकालिए।
+Calculate the total carbon emissions for each brand.
+
+किन देशों में वॉटर यूसेज सबसे ज़्यादा है?
+Which countries have the highest water usage?
+
+कौन-से ब्रांड्स child labor incidents से लगातार प्रभावित हुए हैं?
+Which brands were consistently affected by child labor incidents?
+
+किस देश में सबसे ज़्यादा ब्रांड्स operate करते हैं?
+Which country has the highest number of operating brands?
+
+किस ब्रांड ने सबसे ज़्यादा social sentiment loss face किया है?
+Which brand experienced the biggest sentiment drop?
+
+किस ब्रांड का मजदूरी स्कोर सबसे बेहतर है?
+Which brand pays the highest average wage?
+
+किन ब्रांड्स ने हर साल सुधार दिखाया है labor score में?
+Which brands have shown consistent labor score improvement?
+
+किस देश में social media और wages में विपरीत संबंध है?
+Which country shows an inverse relation between sentiment and wages?
+
+2015 में environmental impact सबसे ज़्यादा किस ब्रांड का था?
+Which brand had the highest environmental impact in 2015?
+
+किन ब्रांड्स के पास high production लेकिन low wages हैं?
+Which brands have high production but low worker wages?
+
+किन ब्रांड्स में child labor रिपोर्ट और sentiment एकसाथ बढ़े हैं?
+Which brands show rising child labor and sentiment issues together?
+
+
+
+हर ब्रांड और साल के लिए कुल प्रोडक्शन निकालिए।
+What is the total production per brand per year?
+
+किन ब्रांड्स का average sentiment score 0 से नीचे है?
+Which brands have an average sentiment score below zero?
+
+कौन-से देश में सबसे ज़्यादा child labor incident हुए 2021 में?
+Which country had the highest child labor incidents in 2021?
+
+किन दो ब्रांड्स ने 2022 में लगभग समान उत्पादन किया था?
+Which two brands had nearly the same production in 2022?
+
+किन ब्रांड्स का औसत wage score 1000 USD से ज़्यादा है?
+Which brands have an average worker wage above 1000 USD?
+
+किन वर्षों में औसत CO₂ emission लगातार गिरा है?
+In which years has the average CO₂ emission consistently decreased?
+
+क्या ब्रांड और देश के बीच कोई समानता है? (count by country & brand)
+Are there brand-country combinations with frequent co-occurrence?
+
+किस ब्रांड का environmental score सबसे ज़्यादा घटा है पिछले 5 वर्षों में?
+Which brand’s environmental score declined the most in the last 5 years?
+
+कौन-से साल में social sentiment ने सबसे तेज़ गिरावट दिखाई?
+Which year had the steepest decline in social sentiment?
+
+किन देशों ने औसतन हर साल मजदूरी बढ़ाई है?
+Which countries have increased worker wages year over year?
+
+किन ब्रांड्स में प्रोडक्शन वॉल्यूम और वॉटर यूसेज का अनुपात सबसे कम है?
+Which brands have the lowest water usage per production volume?
+
+किन ब्रांड्स ने पिछले 3 सालों में CO₂ कम किया लेकिन wages भी घटा दी?
+Which brands reduced CO₂ in the last 3 years but also reduced wages?
+
+कौन-से साल में चाइल्ड लेबर सबसे कम रिपोर्ट हुआ?
+Which year had the least child labor reports?
+
+किन ब्रांड्स का औसत sentiment लगातार बढ़ा है 3 सालों तक?
+Which brands had rising sentiment for three consecutive years?
+
+किस देश में पर्यावरणीय स्कोर और मजदूरी स्कोर का highest correlation है?
+Which country shows the highest correlation between environmental score and wage score?
+
+ब्रांड्स को उनके औसत wage के हिसाब से ascending order में रैंक करो।
+Rank the brands by their average wage in ascending order.
+
+किन देशों में social media sentiment और child labor incidents में उल्टा संबंध है?
+Which countries show an inverse relationship between sentiment and child labor?
+
+किन ब्रांड्स का सबसे ज़्यादा fluctuation है wage में साल-दर-साल?
+Which brands show the highest fluctuation in worker wages year-to-year?
+
+कौन-से दो ब्रांड्स एक ही देश में operate करते हैं और उनके sentiments विपरीत हैं?
+Which two brands operate in the same country but have opposite sentiments?
+
+किन ब्रांड्स का average carbon emission 10,000 tCO2e से ज़्यादा है?
+Which brands have average carbon emissions greater than 10,000 tCO2e?
+
+कौन-से ब्रांड का sentiment 2021 में negative था लेकिन 2022 में positive हो गया?
+Which brand had a negative sentiment in 2021 but positive in 2022?
+
+ब्रांड्स को उनके environmental score के आधार पर group करो और average wage निकालो।
+Group brands by environmental score category and calculate average wage.
+
+किन ब्रांड्स का output steadily increase कर रहा है, लेकिन sentiment गिर रहा है?
+Which brands show increasing output but decreasing sentiment?
+
+किन ब्रांड्स में 2023 के अंदर सबसे ज्यादा child labor incident spike देखा गया?
+Which brands had the biggest spike in child labor incidents in 2023?
+
+किन देशों के लिए labor score, sentiment score और CO₂ emission को एकसाथ देखा जाए?
+Which countries should be studied using all three metrics: labor score, sentiment, and CO₂ emissions?
